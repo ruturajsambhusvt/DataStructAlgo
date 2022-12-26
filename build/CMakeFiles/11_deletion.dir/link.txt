@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/11_deletion.dir/11_deletion.c.o -o 11_deletion 

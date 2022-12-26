@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/12_LinearBinarySearch.dir/12_LinearBinarySearch.c.o -o 12_LinearBinarySearch 

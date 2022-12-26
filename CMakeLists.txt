@@ -6,3 +6,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(08_ArrayADT)
 add_executable(08_ArrayADT 08_ArrayADT.c)
+
+project(10_insertion)
+add_executable(10_insertion 10_insertion.c)
+
+project(11_deletion)
+add_executable(11_deletion 11_deletion.c)
+
+project(12_LinearBinarySearch)
+add_executable(12_LinearBinarySearch 12_LinearBinarySearch.c)
+

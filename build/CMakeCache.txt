@@ -23,6 +23,33 @@
 //Value Computed by CMake
 08_ArrayADT_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
 
+//Value Computed by CMake
+10_insertion_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+10_insertion_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+10_insertion_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+11_deletion_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+11_deletion_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+11_deletion_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+12_LinearBinarySearch_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+12_LinearBinarySearch_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+12_LinearBinarySearch_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -157,7 +184,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=08_ArrayADT
+CMAKE_PROJECT_NAME:STATIC=12_LinearBinarySearch
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

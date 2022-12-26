@@ -129,6 +129,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_ArrayADT.dir/build.make CMakeFiles/08_ArrayADT.dir/build
 .PHONY : 08_ArrayADT/fast
 
+#=============================================================================
+# Target rules for targets named 10_insertion
+
+# Build rule for target.
+10_insertion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_insertion
+.PHONY : 10_insertion
+
+# fast build rule for target.
+10_insertion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_insertion.dir/build.make CMakeFiles/10_insertion.dir/build
+.PHONY : 10_insertion/fast
+
+#=============================================================================
+# Target rules for targets named 11_deletion
+
+# Build rule for target.
+11_deletion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_deletion
+.PHONY : 11_deletion
+
+# fast build rule for target.
+11_deletion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_deletion.dir/build.make CMakeFiles/11_deletion.dir/build
+.PHONY : 11_deletion/fast
+
+#=============================================================================
+# Target rules for targets named 12_LinearBinarySearch
+
+# Build rule for target.
+12_LinearBinarySearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_LinearBinarySearch
+.PHONY : 12_LinearBinarySearch
+
+# fast build rule for target.
+12_LinearBinarySearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/build
+.PHONY : 12_LinearBinarySearch/fast
+
 08_ArrayADT.o: 08_ArrayADT.c.o
 .PHONY : 08_ArrayADT.o
 
@@ -153,6 +192,78 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/08_ArrayADT.dir/build.make CMakeFiles/08_ArrayADT.dir/08_ArrayADT.c.s
 .PHONY : 08_ArrayADT.c.s
 
+10_insertion.o: 10_insertion.c.o
+.PHONY : 10_insertion.o
+
+# target to build an object file
+10_insertion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_insertion.dir/build.make CMakeFiles/10_insertion.dir/10_insertion.c.o
+.PHONY : 10_insertion.c.o
+
+10_insertion.i: 10_insertion.c.i
+.PHONY : 10_insertion.i
+
+# target to preprocess a source file
+10_insertion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_insertion.dir/build.make CMakeFiles/10_insertion.dir/10_insertion.c.i
+.PHONY : 10_insertion.c.i
+
+10_insertion.s: 10_insertion.c.s
+.PHONY : 10_insertion.s
+
+# target to generate assembly for a file
+10_insertion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10_insertion.dir/build.make CMakeFiles/10_insertion.dir/10_insertion.c.s
+.PHONY : 10_insertion.c.s
+
+11_deletion.o: 11_deletion.c.o
+.PHONY : 11_deletion.o
+
+# target to build an object file
+11_deletion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_deletion.dir/build.make CMakeFiles/11_deletion.dir/11_deletion.c.o
+.PHONY : 11_deletion.c.o
+
+11_deletion.i: 11_deletion.c.i
+.PHONY : 11_deletion.i
+
+# target to preprocess a source file
+11_deletion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_deletion.dir/build.make CMakeFiles/11_deletion.dir/11_deletion.c.i
+.PHONY : 11_deletion.c.i
+
+11_deletion.s: 11_deletion.c.s
+.PHONY : 11_deletion.s
+
+# target to generate assembly for a file
+11_deletion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/11_deletion.dir/build.make CMakeFiles/11_deletion.dir/11_deletion.c.s
+.PHONY : 11_deletion.c.s
+
+12_LinearBinarySearch.o: 12_LinearBinarySearch.c.o
+.PHONY : 12_LinearBinarySearch.o
+
+# target to build an object file
+12_LinearBinarySearch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/12_LinearBinarySearch.c.o
+.PHONY : 12_LinearBinarySearch.c.o
+
+12_LinearBinarySearch.i: 12_LinearBinarySearch.c.i
+.PHONY : 12_LinearBinarySearch.i
+
+# target to preprocess a source file
+12_LinearBinarySearch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/12_LinearBinarySearch.c.i
+.PHONY : 12_LinearBinarySearch.c.i
+
+12_LinearBinarySearch.s: 12_LinearBinarySearch.c.s
+.PHONY : 12_LinearBinarySearch.s
+
+# target to generate assembly for a file
+12_LinearBinarySearch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/12_LinearBinarySearch.c.s
+.PHONY : 12_LinearBinarySearch.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +273,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 08_ArrayADT"
+	@echo "... 10_insertion"
+	@echo "... 11_deletion"
+	@echo "... 12_LinearBinarySearch"
 	@echo "... 08_ArrayADT.o"
 	@echo "... 08_ArrayADT.i"
 	@echo "... 08_ArrayADT.s"
+	@echo "... 10_insertion.o"
+	@echo "... 10_insertion.i"
+	@echo "... 10_insertion.s"
+	@echo "... 11_deletion.o"
+	@echo "... 11_deletion.i"
+	@echo "... 11_deletion.s"
+	@echo "... 12_LinearBinarySearch.o"
+	@echo "... 12_LinearBinarySearch.i"
+	@echo "... 12_LinearBinarySearch.s"
 .PHONY : help
 
 

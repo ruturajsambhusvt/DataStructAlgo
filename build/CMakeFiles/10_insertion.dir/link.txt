@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/10_insertion.dir/10_insertion.c.o -o 10_insertion 
