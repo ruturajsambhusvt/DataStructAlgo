@@ -47,4 +47,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/10_insertion.dir/DependInfo.cmake"
   "CMakeFiles/11_deletion.dir/DependInfo.cmake"
   "CMakeFiles/12_LinearBinarySearch.dir/DependInfo.cmake"
+  "CMakeFiles/14_LinkedListTraversal.dir/DependInfo.cmake"
+  "CMakeFiles/16_LinkedListInsertion.dir/DependInfo.cmake"
+  "CMakeFiles/18_LinkedListDeletion.dir/DependInfo.cmake"
   )

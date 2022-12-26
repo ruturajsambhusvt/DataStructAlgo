@@ -2,5 +2,8 @@
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/10_insertion.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/11_deletion.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/12_LinearBinarySearch.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/14_LinkedListTraversal.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/16_LinkedListInsertion.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/18_LinkedListDeletion.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/edit_cache.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/rebuild_cache.dir

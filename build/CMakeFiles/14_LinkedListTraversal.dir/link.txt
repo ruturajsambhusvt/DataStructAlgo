@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/14_LinkedListTraversal.dir/14_LinkedListTraversal.c.o -o 14_LinkedListTraversal 

@@ -67,6 +67,9 @@ all: CMakeFiles/08_ArrayADT.dir/all
 all: CMakeFiles/10_insertion.dir/all
 all: CMakeFiles/11_deletion.dir/all
 all: CMakeFiles/12_LinearBinarySearch.dir/all
+all: CMakeFiles/14_LinkedListTraversal.dir/all
+all: CMakeFiles/16_LinkedListInsertion.dir/all
+all: CMakeFiles/18_LinkedListDeletion.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +81,9 @@ clean: CMakeFiles/08_ArrayADT.dir/clean
 clean: CMakeFiles/10_insertion.dir/clean
 clean: CMakeFiles/11_deletion.dir/clean
 clean: CMakeFiles/12_LinearBinarySearch.dir/clean
+clean: CMakeFiles/14_LinkedListTraversal.dir/clean
+clean: CMakeFiles/16_LinkedListInsertion.dir/clean
+clean: CMakeFiles/18_LinkedListDeletion.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -183,6 +189,84 @@ CMakeFiles/12_LinearBinarySearch.dir/rule: cmake_check_build_system
 CMakeFiles/12_LinearBinarySearch.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/clean
 .PHONY : CMakeFiles/12_LinearBinarySearch.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/14_LinkedListTraversal.dir
+
+# All Build rule for target.
+CMakeFiles/14_LinkedListTraversal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=9,10 "Built target 14_LinkedListTraversal"
+.PHONY : CMakeFiles/14_LinkedListTraversal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/14_LinkedListTraversal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/14_LinkedListTraversal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/14_LinkedListTraversal.dir/rule
+
+# Convenience name for target.
+14_LinkedListTraversal: CMakeFiles/14_LinkedListTraversal.dir/rule
+.PHONY : 14_LinkedListTraversal
+
+# clean rule for target.
+CMakeFiles/14_LinkedListTraversal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/clean
+.PHONY : CMakeFiles/14_LinkedListTraversal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/16_LinkedListInsertion.dir
+
+# All Build rule for target.
+CMakeFiles/16_LinkedListInsertion.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=11,12 "Built target 16_LinkedListInsertion"
+.PHONY : CMakeFiles/16_LinkedListInsertion.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/16_LinkedListInsertion.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/16_LinkedListInsertion.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/16_LinkedListInsertion.dir/rule
+
+# Convenience name for target.
+16_LinkedListInsertion: CMakeFiles/16_LinkedListInsertion.dir/rule
+.PHONY : 16_LinkedListInsertion
+
+# clean rule for target.
+CMakeFiles/16_LinkedListInsertion.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/clean
+.PHONY : CMakeFiles/16_LinkedListInsertion.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/18_LinkedListDeletion.dir
+
+# All Build rule for target.
+CMakeFiles/18_LinkedListDeletion.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=13,14 "Built target 18_LinkedListDeletion"
+.PHONY : CMakeFiles/18_LinkedListDeletion.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/18_LinkedListDeletion.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/18_LinkedListDeletion.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/18_LinkedListDeletion.dir/rule
+
+# Convenience name for target.
+18_LinkedListDeletion: CMakeFiles/18_LinkedListDeletion.dir/rule
+.PHONY : 18_LinkedListDeletion
+
+# clean rule for target.
+CMakeFiles/18_LinkedListDeletion.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/clean
+.PHONY : CMakeFiles/18_LinkedListDeletion.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.o -o 16_LinkedListInsertion 

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.o -o 18_LinkedListDeletion 

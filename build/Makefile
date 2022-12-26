@@ -168,6 +168,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/build
 .PHONY : 12_LinearBinarySearch/fast
 
+#=============================================================================
+# Target rules for targets named 14_LinkedListTraversal
+
+# Build rule for target.
+14_LinkedListTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_LinkedListTraversal
+.PHONY : 14_LinkedListTraversal
+
+# fast build rule for target.
+14_LinkedListTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/build
+.PHONY : 14_LinkedListTraversal/fast
+
+#=============================================================================
+# Target rules for targets named 16_LinkedListInsertion
+
+# Build rule for target.
+16_LinkedListInsertion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 16_LinkedListInsertion
+.PHONY : 16_LinkedListInsertion
+
+# fast build rule for target.
+16_LinkedListInsertion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/build
+.PHONY : 16_LinkedListInsertion/fast
+
+#=============================================================================
+# Target rules for targets named 18_LinkedListDeletion
+
+# Build rule for target.
+18_LinkedListDeletion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18_LinkedListDeletion
+.PHONY : 18_LinkedListDeletion
+
+# fast build rule for target.
+18_LinkedListDeletion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/build
+.PHONY : 18_LinkedListDeletion/fast
+
 08_ArrayADT.o: 08_ArrayADT.c.o
 .PHONY : 08_ArrayADT.o
 
@@ -264,6 +303,78 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/12_LinearBinarySearch.dir/build.make CMakeFiles/12_LinearBinarySearch.dir/12_LinearBinarySearch.c.s
 .PHONY : 12_LinearBinarySearch.c.s
 
+14_LinkedListTraversal.o: 14_LinkedListTraversal.c.o
+.PHONY : 14_LinkedListTraversal.o
+
+# target to build an object file
+14_LinkedListTraversal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/14_LinkedListTraversal.c.o
+.PHONY : 14_LinkedListTraversal.c.o
+
+14_LinkedListTraversal.i: 14_LinkedListTraversal.c.i
+.PHONY : 14_LinkedListTraversal.i
+
+# target to preprocess a source file
+14_LinkedListTraversal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/14_LinkedListTraversal.c.i
+.PHONY : 14_LinkedListTraversal.c.i
+
+14_LinkedListTraversal.s: 14_LinkedListTraversal.c.s
+.PHONY : 14_LinkedListTraversal.s
+
+# target to generate assembly for a file
+14_LinkedListTraversal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/14_LinkedListTraversal.dir/build.make CMakeFiles/14_LinkedListTraversal.dir/14_LinkedListTraversal.c.s
+.PHONY : 14_LinkedListTraversal.c.s
+
+16_LinkedListInsertion.o: 16_LinkedListInsertion.c.o
+.PHONY : 16_LinkedListInsertion.o
+
+# target to build an object file
+16_LinkedListInsertion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.o
+.PHONY : 16_LinkedListInsertion.c.o
+
+16_LinkedListInsertion.i: 16_LinkedListInsertion.c.i
+.PHONY : 16_LinkedListInsertion.i
+
+# target to preprocess a source file
+16_LinkedListInsertion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.i
+.PHONY : 16_LinkedListInsertion.c.i
+
+16_LinkedListInsertion.s: 16_LinkedListInsertion.c.s
+.PHONY : 16_LinkedListInsertion.s
+
+# target to generate assembly for a file
+16_LinkedListInsertion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16_LinkedListInsertion.dir/build.make CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.s
+.PHONY : 16_LinkedListInsertion.c.s
+
+18_LinkedListDeletion.o: 18_LinkedListDeletion.c.o
+.PHONY : 18_LinkedListDeletion.o
+
+# target to build an object file
+18_LinkedListDeletion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.o
+.PHONY : 18_LinkedListDeletion.c.o
+
+18_LinkedListDeletion.i: 18_LinkedListDeletion.c.i
+.PHONY : 18_LinkedListDeletion.i
+
+# target to preprocess a source file
+18_LinkedListDeletion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.i
+.PHONY : 18_LinkedListDeletion.c.i
+
+18_LinkedListDeletion.s: 18_LinkedListDeletion.c.s
+.PHONY : 18_LinkedListDeletion.s
+
+# target to generate assembly for a file
+18_LinkedListDeletion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18_LinkedListDeletion.dir/build.make CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.s
+.PHONY : 18_LinkedListDeletion.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,6 +387,9 @@ help:
 	@echo "... 10_insertion"
 	@echo "... 11_deletion"
 	@echo "... 12_LinearBinarySearch"
+	@echo "... 14_LinkedListTraversal"
+	@echo "... 16_LinkedListInsertion"
+	@echo "... 18_LinkedListDeletion"
 	@echo "... 08_ArrayADT.o"
 	@echo "... 08_ArrayADT.i"
 	@echo "... 08_ArrayADT.s"
@@ -288,6 +402,15 @@ help:
 	@echo "... 12_LinearBinarySearch.o"
 	@echo "... 12_LinearBinarySearch.i"
 	@echo "... 12_LinearBinarySearch.s"
+	@echo "... 14_LinkedListTraversal.o"
+	@echo "... 14_LinkedListTraversal.i"
+	@echo "... 14_LinkedListTraversal.s"
+	@echo "... 16_LinkedListInsertion.o"
+	@echo "... 16_LinkedListInsertion.i"
+	@echo "... 16_LinkedListInsertion.s"
+	@echo "... 18_LinkedListDeletion.o"
+	@echo "... 18_LinkedListDeletion.i"
+	@echo "... 18_LinkedListDeletion.s"
 .PHONY : help
 
 
