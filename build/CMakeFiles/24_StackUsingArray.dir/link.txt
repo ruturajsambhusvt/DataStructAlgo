@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/24_StackUsingArray.dir/24_StackUsingArray.c.o -o 24_StackUsingArray 

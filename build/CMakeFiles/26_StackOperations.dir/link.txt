@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/26_StackOperations.dir/26_StackOperations.c.o -o 26_StackOperations 

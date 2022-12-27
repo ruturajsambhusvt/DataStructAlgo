@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/21_DoublyLL.dir/21_DoublyLL.c.o -o 21_DoublyLL 

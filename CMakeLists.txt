@@ -29,5 +29,23 @@ add_executable(18_LinkedListDeletion 18_LinkedListDeletion.c)
 project(20_CircularLL)
 add_executable(20_CircularLL 20_CircularLL.c)
 
+project(21_DoublyLL)
+add_executable(21_DoublyLL 21_DoublyLL.c)
+
+project(24_StackUsingArray)
+add_executable(24_StackUsingArray 24_StackUsingArray.c)
+
+project(26_StackOperations)
+add_executable(26_StackOperations 26_StackOperations.c)
 
 
+project(27_StackPeek)
+add_executable(27_StackPeek 27_StackPeek.c)
+
+project(28_StackTopBottom)
+add_executable(28_StackTopBottom 28_StackTopBottom.c)
+
+
+
+project(30_LinkedListStack)
+add_executable(30_LinkedListStack 30_LinkedListStack.c)

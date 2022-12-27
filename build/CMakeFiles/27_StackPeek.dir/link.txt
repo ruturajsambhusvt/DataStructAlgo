@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/27_StackPeek.dir/27_StackPeek.c.o -o 27_StackPeek 
