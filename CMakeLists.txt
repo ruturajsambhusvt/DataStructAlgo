@@ -46,6 +46,14 @@ project(28_StackTopBottom)
 add_executable(28_StackTopBottom 28_StackTopBottom.c)
 
 
-
 project(30_LinkedListStack)
 add_executable(30_LinkedListStack 30_LinkedListStack.c)
+
+project(30_LinkedListStack2)
+add_executable(30_LinkedListStack2 30_LinkedListStack2.c)
+
+project(31_StackOp2LL)
+add_executable(31_StackOp2LL 31_StackOp2LL.c)
+
+project(32_ParenthesisMatch)
+add_executable(32_ParenthesisMatch 32_ParenthesisMatch.c)

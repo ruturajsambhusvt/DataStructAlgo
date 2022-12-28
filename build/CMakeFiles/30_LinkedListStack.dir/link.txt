@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/30_LinkedListStack.dir/30_LinkedListStack.c.o -o 30_LinkedListStack 

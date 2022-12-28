@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/31_StackOp2LL.dir/31_StackOp2LL.c.o -o 31_StackOp2LL 

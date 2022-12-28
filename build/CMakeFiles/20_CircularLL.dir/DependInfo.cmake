@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/20_CircularLL.c" "CMakeFiles/20_CircularLL.dir/20_CircularLL.c.o" "gcc" "CMakeFiles/20_CircularLL.dir/20_CircularLL.c.o.d"
+  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/20_CircularLL.c" "CMakeFiles/20_CircularLL.dir/20_CircularLL.c.o" "gcc" "CMakeFiles/20_CircularLL.dir/20_CircularLL.c.o.d"
   )
 
 # Targets to which this target links.
