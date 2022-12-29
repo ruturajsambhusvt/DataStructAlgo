@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/46_QueueLinkedList.dir/46_QueueLinkedList.c.o -o 46_QueueLinkedList 

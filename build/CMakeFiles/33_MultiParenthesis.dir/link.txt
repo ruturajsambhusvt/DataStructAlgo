@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/33_MultiParenthesis.dir/33_MultiParenthesis.c.o -o 33_MultiParenthesis 

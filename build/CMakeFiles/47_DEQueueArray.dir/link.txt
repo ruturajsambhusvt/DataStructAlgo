@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/47_DEQueueArray.dir/47_DEQueueArray.c.o -o 47_DEQueueArray 

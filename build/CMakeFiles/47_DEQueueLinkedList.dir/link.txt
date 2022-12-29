@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/47_DEQueueLinkedList.dir/47_DEQueueLinkedList.c.o -o 47_DEQueueLinkedList 

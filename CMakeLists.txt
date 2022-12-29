@@ -57,3 +57,24 @@ add_executable(31_StackOp2LL 31_StackOp2LL.c)
 
 project(32_ParenthesisMatch)
 add_executable(32_ParenthesisMatch 32_ParenthesisMatch.c)
+
+project(33_MultiParenthesis)
+add_executable(33_MultiParenthesis 33_MultiParenthesis.c)
+
+project(37_InfixToPostfix)
+add_executable(37_InfixToPostfix 37_InfixToPostfix.c)
+
+project(41_QueueUsingArray)
+add_executable(41_QueueUsingArray 41_QueueUsingArray.c)
+
+project(44_CircularQueue)
+add_executable(44_CircularQueue 44_CircularQueue.c)
+
+project(46_QueueLinkedList)
+add_executable(46_QueueLinkedList 46_QueueLinkedList.c)
+
+project(47_DEQueueArray)
+add_executable(47_DEQueueArray 47_DEQueueArray.c)
+
+project(47_DEQueueLinkedList)
+add_executable(47_DEQueueLinkedList 47_DEQueueLinkedList.c)
