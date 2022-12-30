@@ -428,6 +428,45 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/47_DEQueueLinkedList.dir/build.make CMakeFiles/47_DEQueueLinkedList.dir/build
 .PHONY : 47_DEQueueLinkedList/fast
 
+#=============================================================================
+# Target rules for targets named 51_BubbleSort
+
+# Build rule for target.
+51_BubbleSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 51_BubbleSort
+.PHONY : 51_BubbleSort
+
+# fast build rule for target.
+51_BubbleSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/build
+.PHONY : 51_BubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named 53_InsertionSort
+
+# Build rule for target.
+53_InsertionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 53_InsertionSort
+.PHONY : 53_InsertionSort
+
+# fast build rule for target.
+53_InsertionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/build
+.PHONY : 53_InsertionSort/fast
+
+#=============================================================================
+# Target rules for targets named 55_SelectionSort
+
+# Build rule for target.
+55_SelectionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 55_SelectionSort
+.PHONY : 55_SelectionSort
+
+# fast build rule for target.
+55_SelectionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/build
+.PHONY : 55_SelectionSort/fast
+
 08_ArrayADT.o: 08_ArrayADT.c.o
 .PHONY : 08_ArrayADT.o
 
@@ -1004,6 +1043,78 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/47_DEQueueLinkedList.dir/build.make CMakeFiles/47_DEQueueLinkedList.dir/47_DEQueueLinkedList.c.s
 .PHONY : 47_DEQueueLinkedList.c.s
 
+51_BubbleSort.o: 51_BubbleSort.c.o
+.PHONY : 51_BubbleSort.o
+
+# target to build an object file
+51_BubbleSort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/51_BubbleSort.c.o
+.PHONY : 51_BubbleSort.c.o
+
+51_BubbleSort.i: 51_BubbleSort.c.i
+.PHONY : 51_BubbleSort.i
+
+# target to preprocess a source file
+51_BubbleSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/51_BubbleSort.c.i
+.PHONY : 51_BubbleSort.c.i
+
+51_BubbleSort.s: 51_BubbleSort.c.s
+.PHONY : 51_BubbleSort.s
+
+# target to generate assembly for a file
+51_BubbleSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/51_BubbleSort.c.s
+.PHONY : 51_BubbleSort.c.s
+
+53_InsertionSort.o: 53_InsertionSort.c.o
+.PHONY : 53_InsertionSort.o
+
+# target to build an object file
+53_InsertionSort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/53_InsertionSort.c.o
+.PHONY : 53_InsertionSort.c.o
+
+53_InsertionSort.i: 53_InsertionSort.c.i
+.PHONY : 53_InsertionSort.i
+
+# target to preprocess a source file
+53_InsertionSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/53_InsertionSort.c.i
+.PHONY : 53_InsertionSort.c.i
+
+53_InsertionSort.s: 53_InsertionSort.c.s
+.PHONY : 53_InsertionSort.s
+
+# target to generate assembly for a file
+53_InsertionSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/53_InsertionSort.c.s
+.PHONY : 53_InsertionSort.c.s
+
+55_SelectionSort.o: 55_SelectionSort.c.o
+.PHONY : 55_SelectionSort.o
+
+# target to build an object file
+55_SelectionSort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/55_SelectionSort.c.o
+.PHONY : 55_SelectionSort.c.o
+
+55_SelectionSort.i: 55_SelectionSort.c.i
+.PHONY : 55_SelectionSort.i
+
+# target to preprocess a source file
+55_SelectionSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/55_SelectionSort.c.i
+.PHONY : 55_SelectionSort.c.i
+
+55_SelectionSort.s: 55_SelectionSort.c.s
+.PHONY : 55_SelectionSort.s
+
+# target to generate assembly for a file
+55_SelectionSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/55_SelectionSort.c.s
+.PHONY : 55_SelectionSort.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1036,6 +1147,9 @@ help:
 	@echo "... 46_QueueLinkedList"
 	@echo "... 47_DEQueueArray"
 	@echo "... 47_DEQueueLinkedList"
+	@echo "... 51_BubbleSort"
+	@echo "... 53_InsertionSort"
+	@echo "... 55_SelectionSort"
 	@echo "... 08_ArrayADT.o"
 	@echo "... 08_ArrayADT.i"
 	@echo "... 08_ArrayADT.s"
@@ -1108,6 +1222,15 @@ help:
 	@echo "... 47_DEQueueLinkedList.o"
 	@echo "... 47_DEQueueLinkedList.i"
 	@echo "... 47_DEQueueLinkedList.s"
+	@echo "... 51_BubbleSort.o"
+	@echo "... 51_BubbleSort.i"
+	@echo "... 51_BubbleSort.s"
+	@echo "... 53_InsertionSort.o"
+	@echo "... 53_InsertionSort.i"
+	@echo "... 53_InsertionSort.s"
+	@echo "... 55_SelectionSort.o"
+	@echo "... 55_SelectionSort.i"
+	@echo "... 55_SelectionSort.s"
 .PHONY : help
 
 

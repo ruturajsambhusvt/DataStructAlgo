@@ -78,3 +78,12 @@ add_executable(47_DEQueueArray 47_DEQueueArray.c)
 
 project(47_DEQueueLinkedList)
 add_executable(47_DEQueueLinkedList 47_DEQueueLinkedList.c)
+
+project(51_BubbleSort)
+add_executable(51_BubbleSort 51_BubbleSort.c)
+
+project(53_InsertionSort)
+add_executable(53_InsertionSort 53_InsertionSort.c)
+
+project(55_SelectionSort)
+add_executable(55_SelectionSort 55_SelectionSort.c)

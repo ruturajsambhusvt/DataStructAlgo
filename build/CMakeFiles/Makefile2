@@ -87,6 +87,9 @@ all: CMakeFiles/44_CircularQueue.dir/all
 all: CMakeFiles/46_QueueLinkedList.dir/all
 all: CMakeFiles/47_DEQueueArray.dir/all
 all: CMakeFiles/47_DEQueueLinkedList.dir/all
+all: CMakeFiles/51_BubbleSort.dir/all
+all: CMakeFiles/53_InsertionSort.dir/all
+all: CMakeFiles/55_SelectionSort.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -118,6 +121,9 @@ clean: CMakeFiles/44_CircularQueue.dir/clean
 clean: CMakeFiles/46_QueueLinkedList.dir/clean
 clean: CMakeFiles/47_DEQueueArray.dir/clean
 clean: CMakeFiles/47_DEQueueLinkedList.dir/clean
+clean: CMakeFiles/51_BubbleSort.dir/clean
+clean: CMakeFiles/53_InsertionSort.dir/clean
+clean: CMakeFiles/55_SelectionSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -743,6 +749,84 @@ CMakeFiles/47_DEQueueLinkedList.dir/rule: cmake_check_build_system
 CMakeFiles/47_DEQueueLinkedList.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/47_DEQueueLinkedList.dir/build.make CMakeFiles/47_DEQueueLinkedList.dir/clean
 .PHONY : CMakeFiles/47_DEQueueLinkedList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/51_BubbleSort.dir
+
+# All Build rule for target.
+CMakeFiles/51_BubbleSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=49,50 "Built target 51_BubbleSort"
+.PHONY : CMakeFiles/51_BubbleSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/51_BubbleSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/51_BubbleSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/51_BubbleSort.dir/rule
+
+# Convenience name for target.
+51_BubbleSort: CMakeFiles/51_BubbleSort.dir/rule
+.PHONY : 51_BubbleSort
+
+# clean rule for target.
+CMakeFiles/51_BubbleSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/51_BubbleSort.dir/build.make CMakeFiles/51_BubbleSort.dir/clean
+.PHONY : CMakeFiles/51_BubbleSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/53_InsertionSort.dir
+
+# All Build rule for target.
+CMakeFiles/53_InsertionSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=51,52 "Built target 53_InsertionSort"
+.PHONY : CMakeFiles/53_InsertionSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/53_InsertionSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/53_InsertionSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/53_InsertionSort.dir/rule
+
+# Convenience name for target.
+53_InsertionSort: CMakeFiles/53_InsertionSort.dir/rule
+.PHONY : 53_InsertionSort
+
+# clean rule for target.
+CMakeFiles/53_InsertionSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/53_InsertionSort.dir/build.make CMakeFiles/53_InsertionSort.dir/clean
+.PHONY : CMakeFiles/53_InsertionSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/55_SelectionSort.dir
+
+# All Build rule for target.
+CMakeFiles/55_SelectionSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=53,54 "Built target 55_SelectionSort"
+.PHONY : CMakeFiles/55_SelectionSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/55_SelectionSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/55_SelectionSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/55_SelectionSort.dir/rule
+
+# Convenience name for target.
+55_SelectionSort: CMakeFiles/55_SelectionSort.dir/rule
+.PHONY : 55_SelectionSort
+
+# clean rule for target.
+CMakeFiles/55_SelectionSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/clean
+.PHONY : CMakeFiles/55_SelectionSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

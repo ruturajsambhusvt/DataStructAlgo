@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/51_BubbleSort.dir/51_BubbleSort.c.o -o 51_BubbleSort 

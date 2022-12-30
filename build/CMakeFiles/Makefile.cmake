@@ -67,4 +67,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/46_QueueLinkedList.dir/DependInfo.cmake"
   "CMakeFiles/47_DEQueueArray.dir/DependInfo.cmake"
   "CMakeFiles/47_DEQueueLinkedList.dir/DependInfo.cmake"
+  "CMakeFiles/51_BubbleSort.dir/DependInfo.cmake"
+  "CMakeFiles/53_InsertionSort.dir/DependInfo.cmake"
+  "CMakeFiles/55_SelectionSort.dir/DependInfo.cmake"
   )

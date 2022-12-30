@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/53_InsertionSort.dir/53_InsertionSort.c.o -o 53_InsertionSort 

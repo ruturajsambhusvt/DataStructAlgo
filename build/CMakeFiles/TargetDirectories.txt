@@ -22,5 +22,8 @@
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/46_QueueLinkedList.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/47_DEQueueArray.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/47_DEQueueLinkedList.dir
+/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/51_BubbleSort.dir
+/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/53_InsertionSort.dir
+/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/55_SelectionSort.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/edit_cache.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/rebuild_cache.dir
