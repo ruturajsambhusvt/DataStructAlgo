@@ -25,5 +25,6 @@
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/51_BubbleSort.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/53_InsertionSort.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/55_SelectionSort.dir
+/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/56_QuickSort.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/edit_cache.dir
 /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/rebuild_cache.dir

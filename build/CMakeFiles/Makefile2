@@ -90,6 +90,7 @@ all: CMakeFiles/47_DEQueueLinkedList.dir/all
 all: CMakeFiles/51_BubbleSort.dir/all
 all: CMakeFiles/53_InsertionSort.dir/all
 all: CMakeFiles/55_SelectionSort.dir/all
+all: CMakeFiles/56_QuickSort.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -124,6 +125,7 @@ clean: CMakeFiles/47_DEQueueLinkedList.dir/clean
 clean: CMakeFiles/51_BubbleSort.dir/clean
 clean: CMakeFiles/53_InsertionSort.dir/clean
 clean: CMakeFiles/55_SelectionSort.dir/clean
+clean: CMakeFiles/56_QuickSort.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -827,6 +829,32 @@ CMakeFiles/55_SelectionSort.dir/rule: cmake_check_build_system
 CMakeFiles/55_SelectionSort.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/clean
 .PHONY : CMakeFiles/55_SelectionSort.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/56_QuickSort.dir
+
+# All Build rule for target.
+CMakeFiles/56_QuickSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles --progress-num=55,56 "Built target 56_QuickSort"
+.PHONY : CMakeFiles/56_QuickSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/56_QuickSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/56_QuickSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/build/CMakeFiles 0
+.PHONY : CMakeFiles/56_QuickSort.dir/rule
+
+# Convenience name for target.
+56_QuickSort: CMakeFiles/56_QuickSort.dir/rule
+.PHONY : 56_QuickSort
+
+# clean rule for target.
+CMakeFiles/56_QuickSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/clean
+.PHONY : CMakeFiles/56_QuickSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

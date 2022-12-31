@@ -467,6 +467,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/build
 .PHONY : 55_SelectionSort/fast
 
+#=============================================================================
+# Target rules for targets named 56_QuickSort
+
+# Build rule for target.
+56_QuickSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 56_QuickSort
+.PHONY : 56_QuickSort
+
+# fast build rule for target.
+56_QuickSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/build
+.PHONY : 56_QuickSort/fast
+
 08_ArrayADT.o: 08_ArrayADT.c.o
 .PHONY : 08_ArrayADT.o
 
@@ -1115,6 +1128,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/55_SelectionSort.dir/build.make CMakeFiles/55_SelectionSort.dir/55_SelectionSort.c.s
 .PHONY : 55_SelectionSort.c.s
 
+56_QuickSort.o: 56_QuickSort.c.o
+.PHONY : 56_QuickSort.o
+
+# target to build an object file
+56_QuickSort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/56_QuickSort.c.o
+.PHONY : 56_QuickSort.c.o
+
+56_QuickSort.i: 56_QuickSort.c.i
+.PHONY : 56_QuickSort.i
+
+# target to preprocess a source file
+56_QuickSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/56_QuickSort.c.i
+.PHONY : 56_QuickSort.c.i
+
+56_QuickSort.s: 56_QuickSort.c.s
+.PHONY : 56_QuickSort.s
+
+# target to generate assembly for a file
+56_QuickSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/56_QuickSort.dir/build.make CMakeFiles/56_QuickSort.dir/56_QuickSort.c.s
+.PHONY : 56_QuickSort.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1150,6 +1187,7 @@ help:
 	@echo "... 51_BubbleSort"
 	@echo "... 53_InsertionSort"
 	@echo "... 55_SelectionSort"
+	@echo "... 56_QuickSort"
 	@echo "... 08_ArrayADT.o"
 	@echo "... 08_ArrayADT.i"
 	@echo "... 08_ArrayADT.s"
@@ -1231,6 +1269,9 @@ help:
 	@echo "... 55_SelectionSort.o"
 	@echo "... 55_SelectionSort.i"
 	@echo "... 55_SelectionSort.s"
+	@echo "... 56_QuickSort.o"
+	@echo "... 56_QuickSort.i"
+	@echo "... 56_QuickSort.s"
 .PHONY : help
 
 

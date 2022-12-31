@@ -87,3 +87,6 @@ add_executable(53_InsertionSort 53_InsertionSort.c)
 
 project(55_SelectionSort)
 add_executable(55_SelectionSort 55_SelectionSort.c)
+
+project(56_QuickSort)
+add_executable(56_QuickSort 56_QuickSort.c)
