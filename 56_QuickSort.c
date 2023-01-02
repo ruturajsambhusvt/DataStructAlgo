@@ -37,14 +37,14 @@ int partition(int *A, int low, int high)
             A[i] = A[j];
             A[j] = temp;
         }
-        printf("i = %d, j = %d\n", i, j);
+        // printf("i = %d, j = %d\n", i, j);
     } while (i < j);
     // swap A[low] with A[j]
-    printf("Exit out of do while loop\n");
+    // printf("Exit out of do while loop\n");
     temp = A[low];
     A[low] = A[j];
     A[j] = temp;
-    printf("returning\n");
+    // printf("returning\n");
     return j; // return the position of the pivot
 }
 
@@ -56,7 +56,7 @@ void quickSort(int *A, int low, int high)
     {
 
         partitionIndex = partition(A, low, high);
-        printf("partitionIndex = %d\n", partitionIndex);
+        // printf("partitionIndex = %d\n", partitionIndex);
         quickSort(A, low, partitionIndex - 1);  // sort the left subarray
         quickSort(A, partitionIndex + 1, high); // sort the right subarray
     }

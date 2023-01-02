@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/59_MergeSort.dir/59_MergeSort.c.o -o 59_MergeSort 

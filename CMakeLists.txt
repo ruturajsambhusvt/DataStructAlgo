@@ -90,3 +90,9 @@ add_executable(55_SelectionSort 55_SelectionSort.c)
 
 project(56_QuickSort)
 add_executable(56_QuickSort 56_QuickSort.c)
+
+project(59_MergeSort)
+add_executable(59_MergeSort 59_MergeSort.c)
+
+project(60_CountSort)
+add_executable(60_CountSort 60_CountSort.c)
