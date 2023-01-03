@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.o -o 78_DeletionBST 

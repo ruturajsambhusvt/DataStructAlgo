@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/75_SearchIterative.dir/75_SearchIterative.c.o -o 75_SearchIterative 

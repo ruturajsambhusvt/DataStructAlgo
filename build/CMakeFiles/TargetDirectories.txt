@@ -28,5 +28,14 @@
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/56_QuickSort.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/59_MergeSort.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/60_CountSort.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/65_LinkRepBinTree.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/67_PreOrderTraversal.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/68_PostOrderTraversal.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/69_InOrderTraversal.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/72_BinarySearchTree.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/74_SearchRecursive.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/75_SearchIterative.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/76_InsertBST.dir
+/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/78_DeletionBST.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/edit_cache.dir
 /home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build/CMakeFiles/rebuild_cache.dir

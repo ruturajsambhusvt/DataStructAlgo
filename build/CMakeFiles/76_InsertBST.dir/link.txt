@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/76_InsertBST.dir/76_InsertBST.c.o -o 76_InsertBST 

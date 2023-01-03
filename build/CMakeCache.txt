@@ -284,6 +284,96 @@
 //Value Computed by CMake
 60_CountSort_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
 
+//Value Computed by CMake
+65_LinkRepBinTree_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+65_LinkRepBinTree_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+65_LinkRepBinTree_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+67_PreOrderTraversal_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+67_PreOrderTraversal_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+67_PreOrderTraversal_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+68_PostOrderTraversal_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+68_PostOrderTraversal_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+68_PostOrderTraversal_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+69_InOrderTraversal_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+69_InOrderTraversal_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+69_InOrderTraversal_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+72_BinarySearchTree_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+72_BinarySearchTree_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+72_BinarySearchTree_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+74_SearchIterative_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+74_SearchIterative_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+74_SearchIterative_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+74_SearchRecursive_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+74_SearchRecursive_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+74_SearchRecursive_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+75_SearchIterative_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+75_SearchIterative_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+75_SearchIterative_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+76_InsertBST_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+76_InsertBST_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+76_InsertBST_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
+//Value Computed by CMake
+78_DeletionBST_BINARY_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/build
+
+//Value Computed by CMake
+78_DeletionBST_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+78_DeletionBST_SOURCE_DIR:STATIC=/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -418,7 +508,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=60_CountSort
+CMAKE_PROJECT_NAME:STATIC=78_DeletionBST
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

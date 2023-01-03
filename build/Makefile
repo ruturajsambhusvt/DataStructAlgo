@@ -506,6 +506,123 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/60_CountSort.dir/build.make CMakeFiles/60_CountSort.dir/build
 .PHONY : 60_CountSort/fast
 
+#=============================================================================
+# Target rules for targets named 65_LinkRepBinTree
+
+# Build rule for target.
+65_LinkRepBinTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 65_LinkRepBinTree
+.PHONY : 65_LinkRepBinTree
+
+# fast build rule for target.
+65_LinkRepBinTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/65_LinkRepBinTree.dir/build.make CMakeFiles/65_LinkRepBinTree.dir/build
+.PHONY : 65_LinkRepBinTree/fast
+
+#=============================================================================
+# Target rules for targets named 67_PreOrderTraversal
+
+# Build rule for target.
+67_PreOrderTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 67_PreOrderTraversal
+.PHONY : 67_PreOrderTraversal
+
+# fast build rule for target.
+67_PreOrderTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/67_PreOrderTraversal.dir/build.make CMakeFiles/67_PreOrderTraversal.dir/build
+.PHONY : 67_PreOrderTraversal/fast
+
+#=============================================================================
+# Target rules for targets named 68_PostOrderTraversal
+
+# Build rule for target.
+68_PostOrderTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 68_PostOrderTraversal
+.PHONY : 68_PostOrderTraversal
+
+# fast build rule for target.
+68_PostOrderTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/68_PostOrderTraversal.dir/build.make CMakeFiles/68_PostOrderTraversal.dir/build
+.PHONY : 68_PostOrderTraversal/fast
+
+#=============================================================================
+# Target rules for targets named 69_InOrderTraversal
+
+# Build rule for target.
+69_InOrderTraversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 69_InOrderTraversal
+.PHONY : 69_InOrderTraversal
+
+# fast build rule for target.
+69_InOrderTraversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/69_InOrderTraversal.dir/build.make CMakeFiles/69_InOrderTraversal.dir/build
+.PHONY : 69_InOrderTraversal/fast
+
+#=============================================================================
+# Target rules for targets named 72_BinarySearchTree
+
+# Build rule for target.
+72_BinarySearchTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 72_BinarySearchTree
+.PHONY : 72_BinarySearchTree
+
+# fast build rule for target.
+72_BinarySearchTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/72_BinarySearchTree.dir/build.make CMakeFiles/72_BinarySearchTree.dir/build
+.PHONY : 72_BinarySearchTree/fast
+
+#=============================================================================
+# Target rules for targets named 74_SearchRecursive
+
+# Build rule for target.
+74_SearchRecursive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 74_SearchRecursive
+.PHONY : 74_SearchRecursive
+
+# fast build rule for target.
+74_SearchRecursive/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/74_SearchRecursive.dir/build.make CMakeFiles/74_SearchRecursive.dir/build
+.PHONY : 74_SearchRecursive/fast
+
+#=============================================================================
+# Target rules for targets named 75_SearchIterative
+
+# Build rule for target.
+75_SearchIterative: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 75_SearchIterative
+.PHONY : 75_SearchIterative
+
+# fast build rule for target.
+75_SearchIterative/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/75_SearchIterative.dir/build.make CMakeFiles/75_SearchIterative.dir/build
+.PHONY : 75_SearchIterative/fast
+
+#=============================================================================
+# Target rules for targets named 76_InsertBST
+
+# Build rule for target.
+76_InsertBST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 76_InsertBST
+.PHONY : 76_InsertBST
+
+# fast build rule for target.
+76_InsertBST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/76_InsertBST.dir/build.make CMakeFiles/76_InsertBST.dir/build
+.PHONY : 76_InsertBST/fast
+
+#=============================================================================
+# Target rules for targets named 78_DeletionBST
+
+# Build rule for target.
+78_DeletionBST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 78_DeletionBST
+.PHONY : 78_DeletionBST
+
+# fast build rule for target.
+78_DeletionBST/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/78_DeletionBST.dir/build.make CMakeFiles/78_DeletionBST.dir/build
+.PHONY : 78_DeletionBST/fast
+
 08_ArrayADT.o: 08_ArrayADT.c.o
 .PHONY : 08_ArrayADT.o
 
@@ -1226,6 +1343,222 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/60_CountSort.dir/build.make CMakeFiles/60_CountSort.dir/60_CountSort.c.s
 .PHONY : 60_CountSort.c.s
 
+65_LinkRepBinTree.o: 65_LinkRepBinTree.c.o
+.PHONY : 65_LinkRepBinTree.o
+
+# target to build an object file
+65_LinkRepBinTree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/65_LinkRepBinTree.dir/build.make CMakeFiles/65_LinkRepBinTree.dir/65_LinkRepBinTree.c.o
+.PHONY : 65_LinkRepBinTree.c.o
+
+65_LinkRepBinTree.i: 65_LinkRepBinTree.c.i
+.PHONY : 65_LinkRepBinTree.i
+
+# target to preprocess a source file
+65_LinkRepBinTree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/65_LinkRepBinTree.dir/build.make CMakeFiles/65_LinkRepBinTree.dir/65_LinkRepBinTree.c.i
+.PHONY : 65_LinkRepBinTree.c.i
+
+65_LinkRepBinTree.s: 65_LinkRepBinTree.c.s
+.PHONY : 65_LinkRepBinTree.s
+
+# target to generate assembly for a file
+65_LinkRepBinTree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/65_LinkRepBinTree.dir/build.make CMakeFiles/65_LinkRepBinTree.dir/65_LinkRepBinTree.c.s
+.PHONY : 65_LinkRepBinTree.c.s
+
+67_PreOrderTraversal.o: 67_PreOrderTraversal.c.o
+.PHONY : 67_PreOrderTraversal.o
+
+# target to build an object file
+67_PreOrderTraversal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/67_PreOrderTraversal.dir/build.make CMakeFiles/67_PreOrderTraversal.dir/67_PreOrderTraversal.c.o
+.PHONY : 67_PreOrderTraversal.c.o
+
+67_PreOrderTraversal.i: 67_PreOrderTraversal.c.i
+.PHONY : 67_PreOrderTraversal.i
+
+# target to preprocess a source file
+67_PreOrderTraversal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/67_PreOrderTraversal.dir/build.make CMakeFiles/67_PreOrderTraversal.dir/67_PreOrderTraversal.c.i
+.PHONY : 67_PreOrderTraversal.c.i
+
+67_PreOrderTraversal.s: 67_PreOrderTraversal.c.s
+.PHONY : 67_PreOrderTraversal.s
+
+# target to generate assembly for a file
+67_PreOrderTraversal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/67_PreOrderTraversal.dir/build.make CMakeFiles/67_PreOrderTraversal.dir/67_PreOrderTraversal.c.s
+.PHONY : 67_PreOrderTraversal.c.s
+
+68_PostOrderTraversal.o: 68_PostOrderTraversal.c.o
+.PHONY : 68_PostOrderTraversal.o
+
+# target to build an object file
+68_PostOrderTraversal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/68_PostOrderTraversal.dir/build.make CMakeFiles/68_PostOrderTraversal.dir/68_PostOrderTraversal.c.o
+.PHONY : 68_PostOrderTraversal.c.o
+
+68_PostOrderTraversal.i: 68_PostOrderTraversal.c.i
+.PHONY : 68_PostOrderTraversal.i
+
+# target to preprocess a source file
+68_PostOrderTraversal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/68_PostOrderTraversal.dir/build.make CMakeFiles/68_PostOrderTraversal.dir/68_PostOrderTraversal.c.i
+.PHONY : 68_PostOrderTraversal.c.i
+
+68_PostOrderTraversal.s: 68_PostOrderTraversal.c.s
+.PHONY : 68_PostOrderTraversal.s
+
+# target to generate assembly for a file
+68_PostOrderTraversal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/68_PostOrderTraversal.dir/build.make CMakeFiles/68_PostOrderTraversal.dir/68_PostOrderTraversal.c.s
+.PHONY : 68_PostOrderTraversal.c.s
+
+69_InOrderTraversal.o: 69_InOrderTraversal.c.o
+.PHONY : 69_InOrderTraversal.o
+
+# target to build an object file
+69_InOrderTraversal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/69_InOrderTraversal.dir/build.make CMakeFiles/69_InOrderTraversal.dir/69_InOrderTraversal.c.o
+.PHONY : 69_InOrderTraversal.c.o
+
+69_InOrderTraversal.i: 69_InOrderTraversal.c.i
+.PHONY : 69_InOrderTraversal.i
+
+# target to preprocess a source file
+69_InOrderTraversal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/69_InOrderTraversal.dir/build.make CMakeFiles/69_InOrderTraversal.dir/69_InOrderTraversal.c.i
+.PHONY : 69_InOrderTraversal.c.i
+
+69_InOrderTraversal.s: 69_InOrderTraversal.c.s
+.PHONY : 69_InOrderTraversal.s
+
+# target to generate assembly for a file
+69_InOrderTraversal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/69_InOrderTraversal.dir/build.make CMakeFiles/69_InOrderTraversal.dir/69_InOrderTraversal.c.s
+.PHONY : 69_InOrderTraversal.c.s
+
+72_BinarySearchTree.o: 72_BinarySearchTree.c.o
+.PHONY : 72_BinarySearchTree.o
+
+# target to build an object file
+72_BinarySearchTree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/72_BinarySearchTree.dir/build.make CMakeFiles/72_BinarySearchTree.dir/72_BinarySearchTree.c.o
+.PHONY : 72_BinarySearchTree.c.o
+
+72_BinarySearchTree.i: 72_BinarySearchTree.c.i
+.PHONY : 72_BinarySearchTree.i
+
+# target to preprocess a source file
+72_BinarySearchTree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/72_BinarySearchTree.dir/build.make CMakeFiles/72_BinarySearchTree.dir/72_BinarySearchTree.c.i
+.PHONY : 72_BinarySearchTree.c.i
+
+72_BinarySearchTree.s: 72_BinarySearchTree.c.s
+.PHONY : 72_BinarySearchTree.s
+
+# target to generate assembly for a file
+72_BinarySearchTree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/72_BinarySearchTree.dir/build.make CMakeFiles/72_BinarySearchTree.dir/72_BinarySearchTree.c.s
+.PHONY : 72_BinarySearchTree.c.s
+
+74_SearchRecursive.o: 74_SearchRecursive.c.o
+.PHONY : 74_SearchRecursive.o
+
+# target to build an object file
+74_SearchRecursive.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/74_SearchRecursive.dir/build.make CMakeFiles/74_SearchRecursive.dir/74_SearchRecursive.c.o
+.PHONY : 74_SearchRecursive.c.o
+
+74_SearchRecursive.i: 74_SearchRecursive.c.i
+.PHONY : 74_SearchRecursive.i
+
+# target to preprocess a source file
+74_SearchRecursive.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/74_SearchRecursive.dir/build.make CMakeFiles/74_SearchRecursive.dir/74_SearchRecursive.c.i
+.PHONY : 74_SearchRecursive.c.i
+
+74_SearchRecursive.s: 74_SearchRecursive.c.s
+.PHONY : 74_SearchRecursive.s
+
+# target to generate assembly for a file
+74_SearchRecursive.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/74_SearchRecursive.dir/build.make CMakeFiles/74_SearchRecursive.dir/74_SearchRecursive.c.s
+.PHONY : 74_SearchRecursive.c.s
+
+75_SearchIterative.o: 75_SearchIterative.c.o
+.PHONY : 75_SearchIterative.o
+
+# target to build an object file
+75_SearchIterative.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/75_SearchIterative.dir/build.make CMakeFiles/75_SearchIterative.dir/75_SearchIterative.c.o
+.PHONY : 75_SearchIterative.c.o
+
+75_SearchIterative.i: 75_SearchIterative.c.i
+.PHONY : 75_SearchIterative.i
+
+# target to preprocess a source file
+75_SearchIterative.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/75_SearchIterative.dir/build.make CMakeFiles/75_SearchIterative.dir/75_SearchIterative.c.i
+.PHONY : 75_SearchIterative.c.i
+
+75_SearchIterative.s: 75_SearchIterative.c.s
+.PHONY : 75_SearchIterative.s
+
+# target to generate assembly for a file
+75_SearchIterative.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/75_SearchIterative.dir/build.make CMakeFiles/75_SearchIterative.dir/75_SearchIterative.c.s
+.PHONY : 75_SearchIterative.c.s
+
+76_InsertBST.o: 76_InsertBST.c.o
+.PHONY : 76_InsertBST.o
+
+# target to build an object file
+76_InsertBST.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/76_InsertBST.dir/build.make CMakeFiles/76_InsertBST.dir/76_InsertBST.c.o
+.PHONY : 76_InsertBST.c.o
+
+76_InsertBST.i: 76_InsertBST.c.i
+.PHONY : 76_InsertBST.i
+
+# target to preprocess a source file
+76_InsertBST.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/76_InsertBST.dir/build.make CMakeFiles/76_InsertBST.dir/76_InsertBST.c.i
+.PHONY : 76_InsertBST.c.i
+
+76_InsertBST.s: 76_InsertBST.c.s
+.PHONY : 76_InsertBST.s
+
+# target to generate assembly for a file
+76_InsertBST.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/76_InsertBST.dir/build.make CMakeFiles/76_InsertBST.dir/76_InsertBST.c.s
+.PHONY : 76_InsertBST.c.s
+
+78_DeletionBST.o: 78_DeletionBST.c.o
+.PHONY : 78_DeletionBST.o
+
+# target to build an object file
+78_DeletionBST.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/78_DeletionBST.dir/build.make CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.o
+.PHONY : 78_DeletionBST.c.o
+
+78_DeletionBST.i: 78_DeletionBST.c.i
+.PHONY : 78_DeletionBST.i
+
+# target to preprocess a source file
+78_DeletionBST.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/78_DeletionBST.dir/build.make CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.i
+.PHONY : 78_DeletionBST.c.i
+
+78_DeletionBST.s: 78_DeletionBST.c.s
+.PHONY : 78_DeletionBST.s
+
+# target to generate assembly for a file
+78_DeletionBST.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/78_DeletionBST.dir/build.make CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.s
+.PHONY : 78_DeletionBST.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1264,6 +1597,15 @@ help:
 	@echo "... 56_QuickSort"
 	@echo "... 59_MergeSort"
 	@echo "... 60_CountSort"
+	@echo "... 65_LinkRepBinTree"
+	@echo "... 67_PreOrderTraversal"
+	@echo "... 68_PostOrderTraversal"
+	@echo "... 69_InOrderTraversal"
+	@echo "... 72_BinarySearchTree"
+	@echo "... 74_SearchRecursive"
+	@echo "... 75_SearchIterative"
+	@echo "... 76_InsertBST"
+	@echo "... 78_DeletionBST"
 	@echo "... 08_ArrayADT.o"
 	@echo "... 08_ArrayADT.i"
 	@echo "... 08_ArrayADT.s"
@@ -1354,6 +1696,33 @@ help:
 	@echo "... 60_CountSort.o"
 	@echo "... 60_CountSort.i"
 	@echo "... 60_CountSort.s"
+	@echo "... 65_LinkRepBinTree.o"
+	@echo "... 65_LinkRepBinTree.i"
+	@echo "... 65_LinkRepBinTree.s"
+	@echo "... 67_PreOrderTraversal.o"
+	@echo "... 67_PreOrderTraversal.i"
+	@echo "... 67_PreOrderTraversal.s"
+	@echo "... 68_PostOrderTraversal.o"
+	@echo "... 68_PostOrderTraversal.i"
+	@echo "... 68_PostOrderTraversal.s"
+	@echo "... 69_InOrderTraversal.o"
+	@echo "... 69_InOrderTraversal.i"
+	@echo "... 69_InOrderTraversal.s"
+	@echo "... 72_BinarySearchTree.o"
+	@echo "... 72_BinarySearchTree.i"
+	@echo "... 72_BinarySearchTree.s"
+	@echo "... 74_SearchRecursive.o"
+	@echo "... 74_SearchRecursive.i"
+	@echo "... 74_SearchRecursive.s"
+	@echo "... 75_SearchIterative.o"
+	@echo "... 75_SearchIterative.i"
+	@echo "... 75_SearchIterative.s"
+	@echo "... 76_InsertBST.o"
+	@echo "... 76_InsertBST.i"
+	@echo "... 76_InsertBST.s"
+	@echo "... 78_DeletionBST.o"
+	@echo "... 78_DeletionBST.i"
+	@echo "... 78_DeletionBST.s"
 .PHONY : help
 
 

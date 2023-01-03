@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/72_BinarySearchTree.dir/72_BinarySearchTree.c.o -o 72_BinarySearchTree 

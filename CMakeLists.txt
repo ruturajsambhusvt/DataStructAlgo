@@ -96,3 +96,30 @@ add_executable(59_MergeSort 59_MergeSort.c)
 
 project(60_CountSort)
 add_executable(60_CountSort 60_CountSort.c)
+
+project(65_LinkRepBinTree)
+add_executable(65_LinkRepBinTree 65_LinkRepBinTree.c)
+
+project(67_PreOrderTraversal)
+add_executable(67_PreOrderTraversal 67_PreOrderTraversal.c)
+
+project(68_PostOrderTraversal)
+add_executable(68_PostOrderTraversal 68_PostOrderTraversal.c)
+
+project(69_InOrderTraversal)
+add_executable(69_InOrderTraversal 69_InOrderTraversal.c)
+
+project(72_BinarySearchTree)
+add_executable(72_BinarySearchTree 72_BinarySearchTree.c)
+
+project(74_SearchRecursive)
+add_executable(74_SearchRecursive 74_SearchRecursive.c)
+
+project(75_SearchIterative)
+add_executable(75_SearchIterative 75_SearchIterative.c)
+
+project(76_InsertBST)
+add_executable(76_InsertBST 76_InsertBST.c)
+
+project(78_DeletionBST)
+add_executable(78_DeletionBST 78_DeletionBST.c)
