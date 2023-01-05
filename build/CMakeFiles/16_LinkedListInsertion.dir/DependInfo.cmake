@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/16_LinkedListInsertion.c" "CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.o" "gcc" "CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.o.d"
+  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/16_LinkedListInsertion.c" "CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.o" "gcc" "CMakeFiles/16_LinkedListInsertion.dir/16_LinkedListInsertion.c.o.d"
   )
 
 # Targets to which this target links.

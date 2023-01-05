@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/82_AVLRotation.dir/82_AVLRotation.c.o -o 82_AVLRotation 

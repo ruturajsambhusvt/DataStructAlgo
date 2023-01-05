@@ -123,3 +123,6 @@ add_executable(76_InsertBST 76_InsertBST.c)
 
 project(78_DeletionBST)
 add_executable(78_DeletionBST 78_DeletionBST.c)
+
+project(82_AVLRotation)
+add_executable(82_AVLRotation 82_AVLRotation.c)
