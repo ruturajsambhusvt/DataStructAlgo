@@ -62,21 +62,6 @@ int getBalanceFactor(struct Node* n){
 }
 
 
-struct Node* leftRotate(struct Node* x){
-    struct Node* y = x->right;
-    struct Node* T2 = y->left;
-
-    y->left = x; //perform the rotation see the diagram or make a diagram
-    x->right = T2; //perform the rotation see the diagram or make a diagram
-
-    y->height = max(getHeight(y->left), getHeight(y->right)) + 1; //update the height of y
-    x->height = max(getHeight(x->left), getHeight(x->right)) + 1; //update the height of x
-
-    return y; //return the new root
-
-}
-
-
 struct Node* rightRotate(struct Node* y){
     struct Node* x = y->left;
     struct Node* T2 = x->right;
@@ -84,12 +69,54 @@ struct Node* rightRotate(struct Node* y){
     x->right = y; //perform the rotation see the diagram or make a diagram
     y->left = T2; //perform the rotation see the diagram or make a diagram
 
-    y->height = max(getHeight(y->left), getHeight(y->right)) + 1; //update the height of y
     x->height = max(getHeight(x->left), getHeight(x->right)) + 1; //update the height of x
+    y->height = max(getHeight(y->left), getHeight(y->right)) + 1; //update the height of y
+    
 
     return x; //return the new root
 
 }
+
+struct Node* leftRotate(struct Node* x){
+    struct Node* y = x->right;
+    struct Node* T2 = y->left;
+
+    y->left = x; //perform the rotation see the diagram or make a diagram
+    x->right = T2; //perform the rotation see the diagram or make a diagram
+
+    x->height = max(getHeight(x->left), getHeight(x->right)) + 1; //update the height of x
+    y->height = max(getHeight(y->left), getHeight(y->right)) + 1; //update the height of y
+    
+    return y; //return the new root
+
+}
+
+
+/* struct Node* rightRotate(struct Node* y){
+    struct Node* x = y->left;
+    struct Node* T2 = x->right;
+ 
+    x->right = y;
+    y->left = T2;
+ 
+    x->height = max(getHeight(x->right), getHeight(x->left)) + 1;
+    y->height = max(getHeight(y->right), getHeight(y->left)) + 1;
+ 
+    return x;
+}
+ 
+struct Node* leftRotate(struct Node* x){
+    struct Node* y = x->right;
+    struct Node* T2 = y->left;
+ 
+    y->left = x;
+    x->right = T2;
+ 
+    x->height = max(getHeight(x->right), getHeight(x->left)) + 1;
+    y->height = max(getHeight(y->right), getHeight(y->left)) + 1;
+ 
+    return y;
+} */
 
 struct Node* insert(struct Node* node, int key){
     if (node==NULL)
@@ -109,24 +136,24 @@ struct Node* insert(struct Node* node, int key){
     node->height = max(getHeight(node->left), getHeight(node->right)) + 1; //update the height of the node since balance factor is calculated using height
     int balancefactor = getBalanceFactor(node);
 
-    //LL
+    //Left Left
     //check if the node is unbalanced and it is left left case
-    if (balancefactor > 1 && key<node->left->key)
+    if (balancefactor > 1 && key < node->left->key)
     {
         return rightRotate(node);
     }
     
 
-    //LR
+    //Left Right
     if (balancefactor > 1 && key > node->left->key)
     {
-        node->left = rightRotate(node->left);
-        return leftRotate(node);
+        node->left = leftRotate(node->left);
+        return rightRotate(node);
     }
     
 
 
-    //RR
+    //Right Right
 
     if (balancefactor < -1 && key > node->right->key )
     {
@@ -134,11 +161,11 @@ struct Node* insert(struct Node* node, int key){
     }
     
 
-    //RL
-    if (balancefactor > 1 && key < node->right->key)
+    //Right Left
+    if (balancefactor < -1 && key < node->right->key)
     {
-        node->right = leftRotate(node->right);
-        return rightRotate(node);
+        node->right = rightRotate(node->right);
+        return leftRotate(node);
     }
 
     return node;
@@ -157,6 +184,8 @@ int main(){
     root = insert(root, 5);
     root = insert(root, 6);
     root = insert(root, 3);
+    root = insert(root, 7);
+    // root = insert(root, 8);
 
     preorder(root);
     printf("\n");
@@ -164,3 +193,6 @@ int main(){
 
     return 0;
 }
+
+
+
