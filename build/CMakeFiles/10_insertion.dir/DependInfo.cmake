@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/10_insertion.c" "CMakeFiles/10_insertion.dir/10_insertion.c.o" "gcc" "CMakeFiles/10_insertion.dir/10_insertion.c.o.d"
+  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/10_insertion.c" "CMakeFiles/10_insertion.dir/10_insertion.c.o" "gcc" "CMakeFiles/10_insertion.dir/10_insertion.c.o.d"
   )
 
 # Targets to which this target links.

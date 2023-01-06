@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/89_DepthForSearch.dir/89_DepthForSearch.c.o -o 89_DepthForSearch 

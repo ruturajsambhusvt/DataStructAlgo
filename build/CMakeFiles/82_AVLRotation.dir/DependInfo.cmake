@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/82_AVLRotation.c" "CMakeFiles/82_AVLRotation.dir/82_AVLRotation.c.o" "gcc" "CMakeFiles/82_AVLRotation.dir/82_AVLRotation.c.o.d"
+  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/82_AVLRotation.c" "CMakeFiles/82_AVLRotation.dir/82_AVLRotation.c.o" "gcc" "CMakeFiles/82_AVLRotation.dir/82_AVLRotation.c.o.d"
   )
 
 # Targets to which this target links.

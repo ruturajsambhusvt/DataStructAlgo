@@ -126,3 +126,9 @@ add_executable(78_DeletionBST 78_DeletionBST.c)
 
 project(82_AVLRotation)
 add_executable(82_AVLRotation 82_AVLRotation.c)
+
+project(87_BreadthFirstSearch)
+add_executable(87_BreadthFirstSearch 87_BreadthFirstSearch.c)
+
+project(89_DepthForSearch)
+add_executable(89_DepthForSearch 89_DepthForSearch.c)
