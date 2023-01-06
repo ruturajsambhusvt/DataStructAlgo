@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/56_QuickSort.c" "CMakeFiles/56_QuickSort.dir/56_QuickSort.c.o" "gcc" "CMakeFiles/56_QuickSort.dir/56_QuickSort.c.o.d"
+  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/56_QuickSort.c" "CMakeFiles/56_QuickSort.dir/56_QuickSort.c.o" "gcc" "CMakeFiles/56_QuickSort.dir/56_QuickSort.c.o.d"
   )
 
 # Targets to which this target links.

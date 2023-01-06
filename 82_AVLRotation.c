@@ -69,8 +69,10 @@ struct Node* rightRotate(struct Node* y){
     x->right = y; //perform the rotation see the diagram or make a diagram
     y->left = T2; //perform the rotation see the diagram or make a diagram
 
-    x->height = max(getHeight(x->left), getHeight(x->right)) + 1; //update the height of x
+    //This order is important
     y->height = max(getHeight(y->left), getHeight(y->right)) + 1; //update the height of y
+    x->height = max(getHeight(x->left), getHeight(x->right)) + 1; //update the height of x
+    
     
 
     return x; //return the new root
@@ -84,6 +86,7 @@ struct Node* leftRotate(struct Node* x){
     y->left = x; //perform the rotation see the diagram or make a diagram
     x->right = T2; //perform the rotation see the diagram or make a diagram
 
+    //This order is important
     x->height = max(getHeight(x->left), getHeight(x->right)) + 1; //update the height of x
     y->height = max(getHeight(y->left), getHeight(y->right)) + 1; //update the height of y
     
@@ -185,6 +188,9 @@ int main(){
     root = insert(root, 6);
     root = insert(root, 3);
     root = insert(root, 7);
+    root = insert(root, 0);
+    root = insert(root, -5);
+    root = insert(root, -2);
     // root = insert(root, 8);
 
     preorder(root);

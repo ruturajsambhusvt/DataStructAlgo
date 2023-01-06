@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/18_LinkedListDeletion.c" "CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.o" "gcc" "CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.o.d"
+  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/18_LinkedListDeletion.c" "CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.o" "gcc" "CMakeFiles/18_LinkedListDeletion.dir/18_LinkedListDeletion.c.o.d"
   )
 
 # Targets to which this target links.
