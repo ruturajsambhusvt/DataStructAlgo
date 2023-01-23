@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/78_DeletionBST.c" "CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.o" "gcc" "CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.o.d"
+  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/78_DeletionBST.c" "CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.o" "gcc" "CMakeFiles/78_DeletionBST.dir/78_DeletionBST.c.o.d"
   )
 
 # Targets to which this target links.

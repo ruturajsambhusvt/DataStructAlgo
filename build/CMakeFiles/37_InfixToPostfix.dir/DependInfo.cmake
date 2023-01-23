@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ruturajsambhus/Work/Coding_Tutorials/DataStructAlgo/37_InfixToPostfix.c" "CMakeFiles/37_InfixToPostfix.dir/37_InfixToPostfix.c.o" "gcc" "CMakeFiles/37_InfixToPostfix.dir/37_InfixToPostfix.c.o.d"
+  "/home/trec/WorkRaj/Coding_Tutorials/DataStructAlgo/37_InfixToPostfix.c" "CMakeFiles/37_InfixToPostfix.dir/37_InfixToPostfix.c.o" "gcc" "CMakeFiles/37_InfixToPostfix.dir/37_InfixToPostfix.c.o.d"
   )
 
 # Targets to which this target links.
