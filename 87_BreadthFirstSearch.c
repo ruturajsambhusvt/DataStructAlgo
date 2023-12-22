@@ -73,6 +73,7 @@ int dequeue(struct queue *q)
     return a;
 }
 
+
 int main()
 {
     struct queue *q = (struct queue *)malloc(sizeof(struct queue));
@@ -92,6 +93,8 @@ int main()
                       {0, 0, 0, 0, 1, 0, 0},
                       {0, 0, 0, 0, 1, 0, 0} };
     
+    // what is adj? It is the adjacency matrix of the graph
+    // Explain adj: adj[i][j] = 1 if there is an edge between i and j
     printf("The starting node is %d\n",i);
     printf("The nodes visited are:\n");
     printf("%d",i);
@@ -100,7 +103,7 @@ int main()
 
     while (!isEmpty(q))
     {
-        int node = dequeue(q);
+        int node = dequeue(q); 
         for (int j = 0; j < 7; j++)
         {
             if (adj[node][j] == 1 && visited[j] == 0)
